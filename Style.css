@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(235, 123, 220, 0.986);
+    font-size: 16px;
+    font-family:'Fuzzy Bubbles', cursive;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    color:rgb(102, 48, 5)
+    
+    
+}
+
+.headernav{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.466);
+    
+}
+.headernav a{
+    text-decoration: none;
+    color:rgb(102, 48, 5)
+    
+}
+.headernav a:hover{
+    color: blueviolet;
+}
+
+.maindescrip{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size:1rem;
+    padding: 1%;
+    
+}
+
+#titulo{
+    
+    width: 100%;
+    height: 3%;
+    text-align: center;
+    font-size:1.2rem;
+    padding: 1%;
+    
+}
+#logo{
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    align-items: center;
+    
+}
+#titulo2{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    
+}
+
+.seccioninfo{
+    width: 50%;
+    height: 40%;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+   
+}
+#pag2{
+    width: 80%;
+    height: 1%;
+    padding: 2%;
+      
+}
+.sectionmaquilla{
+    width: 100%;
+    height: 2%;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(205, 155, 252, 0.192);
+}
+#maqui1{
+    width: 10%;
+    height: 1%;
+    padding: 1%;  
+}
+#maqui2{
+    width: 15%;
+    height: 1%;
+    padding: 1%;  
+}
+
+   
+.sectionfacial{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+        
+}
+#sectioncf
+.sectionfacialbutton{
+    width: 50%;
+    height: 10%;
+    padding: 2%;
+    margin: auto;
+    
+}
+#facial{
+    width: 70%;
+    height: 60%;
+    padding: 1%;
+}
+.sectionbolsos{
+    display: flex;
+    width: 100%;
+    height: 5%;
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(205, 155, 252, 0.192);
+}
+#sectionba
+.sectionbolsobutton{
+    width: 40%;
+    height: 5%;
+    padding: 1%;
+    margin: auto;
+}
+.seccioncontact{
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(248, 250, 252, 0.301);
+}
+@media(max-width:480px)
+{
+.sectionmaquilla{
+    flex-direction: row;
+    color:rgb(252, 243, 236)
+    }
+    body{
+    font-size: 8px;
+    color:rgb(252, 243, 236)
+    }
+    .headernav{
+    font-size: 1rem;
+    padding: 10px 10px;
+    flex-direction: column;
+    }
+}
+
+@media(max-width:768px)
+{
+    .headernav{
+        font-size: 1.2rem;
+        padding: 12px 12px;
+        flex-direction: column-reverse;
+    }
+    body{
+        font-size: 12px;
+    }
+    .sectionfacial{
+        flex-direction: column;
+        }
+    
+    .sectionbolsos{
+        flex-direction: column;
+        }
+    .maindescrip{
+        flex-direction: column;
+        align-items:flex-start;
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width:1024px)
+{
+    .seccioncontact{
+        width: 40%;
+        background-color: rgb(166, 228, 207);
+    }
+    .headernav{
+        font-size: larger;
+        background-color:rgb(235, 255, 215)
+    }
+    
+}
